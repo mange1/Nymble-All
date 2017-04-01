@@ -1,0 +1,29 @@
+<%-- 
+    Document   : index
+    Created on : Mar 7, 2012, 11:34:38 AM
+    Author     : Inbo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>        
+
+        <form method="get" action="http://localhost:8080/NymbleServer/LoginServer">
+            Enter UserName <input type="text" name="username" value="" /><br><br>
+
+            Enter Password <input type="text" name="password" value="" /><br>
+
+            <input type="submit" name="submit" />
+
+        </form>
+        <%
+            //response.sendRedirect("/NymbleServer/LoginServer");
+        %>
+    </body>
+</html>
